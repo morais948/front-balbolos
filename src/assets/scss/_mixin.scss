@@ -1,0 +1,12 @@
+@import './variables';
+
+@mixin icon-base{
+    cursor: pointer;
+    font-size: 2.5rem;
+    transition: 200ms ease-in-out;
+    color: $preto;
+
+    &:hover{
+        transform: scale(1.10);
+    }
+}

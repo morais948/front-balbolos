@@ -1,0 +1,80 @@
+@import '../../assets/scss/mixin';
+@import '../../assets/scss/variables';
+
+
+@keyframes selected{
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: $rosa;
+    }
+}
+
+.cart-item{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .item-selected-anim{
+        animation-name: selected;
+        animation-duration: 200ms;
+    }
+
+    .title-cart{
+        color: $preto;
+
+        @media only screen and (max-width: 400px) {
+            font-size: 1.5rem;
+        }
+        @media only screen and (max-width: 332px) {
+            font-size: 1.3rem;
+        }
+    }
+
+    .fas{
+        @include icon-base;
+        font-size: 1.8rem;
+
+        &:hover {
+            transform: scale(1.04);
+        }
+    }
+
+    .total{
+        width: 100%;
+        font-weight: 700;
+
+        .total-label{
+            color: $roxo;
+        }
+        .value-label{
+            color: $rosa;
+        }
+    }
+
+    .price, .qtd{
+        font-weight: 700;
+    }
+
+    .btn-finish{
+        background-color: $azul;
+        color: $branco;
+        font-weight: 700;
+        transition: 200ms ease-in-out;
+
+        &:hover{
+            transform: scale(1.03);
+        }
+    }
+
+    .btn-remove-all{
+        background-color: $rosa;
+        color: $branco;
+        font-weight: 700;
+        transition: 200ms ease-in-out;
+
+        &:hover{
+            transform: scale(1.03);
+        }
+    }
+}

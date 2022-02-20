@@ -1,0 +1,23 @@
+@import '../../assets/scss/mixin';
+@import '../../assets/scss/variables';
+
+
+.carousel-item{    
+    .modal-title{
+        color: $rosa;
+    }
+    
+    .price{
+        color: $rosa;
+        font-weight: 700;
+    }
+
+    .icon-prod{
+        @include icon-base;
+
+        &:hover{
+            transform: scale(1.05);
+            color: $azul;
+        }
+    }
+}

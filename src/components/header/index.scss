@@ -1,0 +1,55 @@
+@import '../../assets/scss/mixin';
+@import '../../assets/scss/variables';
+
+.header{
+    background-color: rgba($preto, .7);
+    min-height: 80px;
+    width: 100%;
+    z-index: 80;
+    position: fixed;
+    top: 0;
+
+    img{
+        max-width: 180px;
+        border-radius: 100%;
+        margin: 2%;
+    }
+    .icon{
+        @include icon-base;
+        font-size: 1.7rem;
+    }
+    .title{
+        color: $preto;
+        font-family: 'Kalam', cursive;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+
+        .bal{
+            color: $roxo;
+        }
+
+        .bolos{
+            color: $rosa;
+        }
+    }
+
+    .fa-whatsapp{
+        color: $roxo;
+    }
+
+    .fa-instagram{
+        color: $rosa;
+    }
+    
+    .fa-shopping-cart{
+        color: $roxo;
+    }
+
+    .count{
+        color: $branco;
+        font-size: 1rem;
+    }
+    a{
+        text-decoration: none;
+    }
+}
