@@ -17,8 +17,12 @@ const Header = () => {
     
 
             <div className="d-flex justify-content-between align-items-center">
-                <i className="fa-brands fa-whatsapp icon mx-3"></i>
-                <i className="fab fa-instagram icon mx-3"></i>
+                <a href="https://api.whatsapp.com/send?phone=5584997031531" target="_blank">
+                    <i className="fa-brands fa-whatsapp icon mx-3"></i>
+                </a>
+                <a href="https://www.instagram.com/bal.bolos/" target="_blank">
+                    <i className="fab fa-instagram icon mx-3"></i>
+                </a>
                 <div id="carrinho" 
                     className="animate__animated" data-bs-toggle="tooltip" 
                     data-bs-placement="bottom" title="ITEM ADICIONADO" data-bs-trigger="manual"

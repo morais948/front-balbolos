@@ -1,0 +1,14 @@
+@import '../../assets/scss/variables';
+
+.info{
+    margin-top: 100px;
+
+    .icon{
+        font-size: 3rem;
+        color: $preto;
+    }
+
+    .map{
+        margin-bottom: 100px;
+    }
+}

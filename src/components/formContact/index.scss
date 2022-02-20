@@ -1,0 +1,10 @@
+@import '../../assets/scss/variables';
+
+.contact{
+    margin-top: 100px;
+    color: $preto;
+
+    .btn-outline-secondary:hover{
+        background-color: $preto;
+    }
+}

@@ -46,7 +46,7 @@ const Cart = () => {
         }
         let text = ''
         listCart.map((prod: product, i: number) => {
-            text += `${i+1}. ${prod.desc} - R$${formatMoney(prod.price)}%0a`
+            text += `${prod.qtd} x ${prod.desc} - R$${formatMoney(prod.price * prod.qtd)}%0a`
         })
         const request = `*======PEDIDO======*%0a${text}%0a*Total: R$${formatMoney(sumTotal())}*`
         return request
@@ -100,7 +100,7 @@ const Cart = () => {
                 }
                 { listCart.length == 0 && <h3 className="mt-2">Vazio.</h3> }
             </div>
-            <div className="total d-flex justify-content-around align-items-center flex-wrap">
+            <div className="total d-flex flex-column justify-content-center align-items-start flex-wrap">
                 <span className="fs-2 animate__animated animate__lightSpeedInLeft">
                     <span className="total-label">Total: </span> 
                     <span className="value-label">{formatMoney(sumTotal())}</span>
@@ -108,7 +108,7 @@ const Cart = () => {
 
                 <a 
                     href={`https://api.whatsapp.com/send?phone=5584997031531&text=${sendRequestToWhatsapp()}`} 
-                    className="btn btn-finish"
+                    className="btn btn-finish animate__animated animate__lightSpeedInLeft"
                     target="_blank"
                 >
                     Finalizar pedido por whatsapp <i className="fa-brands fa-whatsapp"></i>
