@@ -26,7 +26,7 @@ function app() {
     const [ listCart, setListCart ] = useState<product[]>([])
 
     useEffect(() => {
-        axios.get('../categorys.json').then(items => {
+        axios.get('./assets/categorys.json').then(items => {
             setCategorys((categorys) => categorys = items.data.categorys)
         }).catch(error => {
             console.log('deu erro', error)

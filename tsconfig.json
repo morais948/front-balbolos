@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "popover.js"],
+  "include": ["src", "dist/popover.js", "popover.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
