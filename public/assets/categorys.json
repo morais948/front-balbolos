@@ -9,19 +9,19 @@
                     "items": [
                         {
                             "id": 1,
-                            "src": "/src/assets/images/bolo1.png",
+                            "src": "./images/bolo1.png",
                             "desc": "Bolo de abacaxi",
                             "price": 10.5
                         },
                         {
                             "id": 2,
-                            "src": "/src/assets/images/bolo2.png",
+                            "src": "./images/bolo2.png",
                             "desc": "Bolo de cenoura com cauda de chocolate",
                             "price": 11.9
                         },
                         {
                             "id": 3,
-                            "src": "/src/assets/images/bolo3.png",
+                            "src": "./images/bolo3.png",
                             "desc": "Bolo de chocolate com granulado",
                             "price": 19.6
                         }
@@ -32,19 +32,19 @@
                     "items": [
                         {
                             "id": 4,
-                            "src": "/src/assets/images/bolo4.png",
+                            "src": "./images/bolo4.png",
                             "desc": "Bolo de ninho com morango",
                             "price": 25.8
                         },
                         {
                             "id": 5,
-                            "src": "/src/assets/images/bolo5.png",
+                            "src": "./images/bolo5.png",
                             "desc": "Bolo de limão",
                             "price": 15.9
                         },
                         {
                             "id": 6,
-                            "src": "/src/assets/images/bolo6.png",
+                            "src": "./images/bolo6.png",
                             "desc": "Bolo de coco",
                             "price": 18.5
                         }
@@ -61,19 +61,19 @@
                     "items": [
                         {
                             "id": 1,
-                            "src": "/src/assets/images/sob1.png",
+                            "src": "./images/sob1.png",
                             "desc": "Potinho de doce de leite",
                             "price": 8.5
                         },
                         {
                             "id": 2,
-                            "src": "/src/assets/images/sob2.png",
+                            "src": "./images/sob2.png",
                             "desc": "Doce de chá",
                             "price": 16.8
                         },
                         {
                             "id": 3,
-                            "src": "/src/assets/images/sob3.png",
+                            "src": "./images/sob3.png",
                             "desc": "Torta com cauda de chocolate",
                             "price": 17.7
                         }
@@ -84,19 +84,19 @@
                     "items": [
                         {
                             "id": 4,
-                            "src": "/src/assets/images/sob4.png",
+                            "src": "./images/sob4.png",
                             "desc": "Doce de macarujá",
                             "price": 9.5
                         },
                         {
                             "id": 5,
-                            "src": "/src/assets/images/sob5.png",
+                            "src": "./images/sob5.png",
                             "desc": "Bolacha com brigadeiro",
                             "price": 5.0
                         },
                         {
                             "id": 6,
-                            "src": "/src/assets/images/sob6.png",
+                            "src": "./images/sob6.png",
                             "desc": "Doce de ninho com cauda de morango",
                             "price": 9.9
                         }
@@ -113,19 +113,19 @@
                     "items": [
                         {
                             "id": 1,
-                            "src": "/src/assets/images/san1.png",
+                            "src": "./images/san1.png",
                             "desc": "Sanduíche de frango",
                             "price": 16.5
                         },
                         {
                             "id": 2,
-                            "src": "/src/assets/images/san2.png",
+                            "src": "./images/san2.png",
                             "desc": "Quarteirão de carne",
                             "price": 18.5
                         },
                         {
                             "id": 3,
-                            "src": "/src/assets/images/san3.png",
+                            "src": "./images/san3.png",
                             "desc": "Misto quente fibrado",
                             "price": 8.5
                         }
@@ -136,19 +136,19 @@
                     "items": [
                         {
                             "id": 4,
-                            "src": "/src/assets/images/san4.png",
+                            "src": "./images/san4.png",
                             "desc": "Super bacon",
                             "price": 19.5
                         },
                         {
                             "id": 5,
-                            "src": "/src/assets/images/san5.png",
+                            "src": "./images/san5.png",
                             "desc": "Misto",
                             "price": 5.5
                         },
                         {
                             "id": 6,
-                            "src": "/src/assets/images/san6.png",
+                            "src": "./images/san6.png",
                             "desc": "Misto integral",
                             "price": 6.5
                         }
