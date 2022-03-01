@@ -28,8 +28,12 @@ const Header = () => {
                     data-bs-placement="bottom" title="ITEM ADICIONADO" data-bs-trigger="manual"
                 >
                     <Link to="/carrinho">
-                        <i className="fas fa-shopping-cart icon mx-3">
-                            <span className="count">{listCart.length}</span>
+                        <i className="fas fa-shopping-cart icon mx-3 position-relative">
+                           
+                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                                <span className="fs-6">{listCart.length}</span>
+                                <span className="visually-hidden">unread messages</span>
+                            </span>
                         </i>
                     </Link>
                 </div>
